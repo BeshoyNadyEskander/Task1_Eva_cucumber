@@ -1,0 +1,52 @@
+[INFO] 02-06-2025 20:02:37 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: edge
+[INFO] 02-06-2025 20:02:41 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 02-06-2025 20:02:43 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 02-06-2025 20:02:43 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 02-06-2025 20:02:43 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 02-06-2025 20:02:46 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 02-06-2025 20:02:47 [main] [Pages.P03_AdminPage.getRecordedNumber(P03_AdminPage.java:53)] - Recorded number is: (2) Records Found
+[INFO] 02-06-2025 20:02:47 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:58)] - Add button is clicked
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:64)] - Admin role is selected an drop menu is displayed
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:73)] - Admin role is selected
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.clickOnStatusButton(P03_AdminPage.java:83)] - Status button is clicked
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.chooseEnableStatus(P03_AdminPage.java:90)] - Status is selected
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.enterPassword(P03_AdminPage.java:101)] - Password is entered: admin123456
+[INFO] 02-06-2025 20:02:48 [main] [Pages.P03_AdminPage.enterConfirmPassword(P03_AdminPage.java:111)] - Confirm Password is entered: admin123456
+[INFO] 02-06-2025 20:02:50 [main] [Pages.P03_AdminPage.enterEmployeeName(P03_AdminPage.java:149)] - Employee name 'A' found.
+[INFO] 02-06-2025 20:02:50 [main] [Pages.P03_AdminPage.enterUserName(P03_AdminPage.java:161)] - User Name is entered: Admin_576-46-02-08-02-06-2025
+[INFO] 02-06-2025 20:02:50 [main] [Pages.P03_AdminPage.clickOnSaveButton(P03_AdminPage.java:174)] - Save button is clicked
+[INFO] 02-06-2025 20:02:55 [main] [Pages.P03_AdminPage.getRecordedNumberAfter(P03_AdminPage.java:184)] - After Recorded number is: (3) Records Found
+[INFO] 02-06-2025 20:02:55 [main] [Pages.P03_AdminPage.VerifyOnRecordedIncreased(P03_AdminPage.java:208)] - Verifying if recorded number increased
+[INFO] 02-06-2025 20:02:55 [main] [Pages.P03_AdminPage.AfterRecordedNumber(P03_AdminPage.java:202)] - Recorded number after is: 3
+[INFO] 02-06-2025 20:02:55 [main] [Pages.P03_AdminPage.BeforeRecordedNumber(P03_AdminPage.java:193)] - Recorded number before is: 2
+[INFO] 02-06-2025 20:02:59 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: edge
+[INFO] 02-06-2025 20:03:06 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 02-06-2025 20:03:09 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 02-06-2025 20:03:09 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 02-06-2025 20:03:10 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 02-06-2025 20:03:12 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 02-06-2025 20:03:13 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:58)] - Add button is clicked
+[INFO] 02-06-2025 20:03:13 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:64)] - Admin role is selected an drop menu is displayed
+[INFO] 02-06-2025 20:03:13 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:73)] - Admin role is selected
+[INFO] 02-06-2025 20:03:13 [main] [Pages.P03_AdminPage.clickOnStatusButton(P03_AdminPage.java:83)] - Status button is clicked
+[INFO] 02-06-2025 20:03:13 [main] [Pages.P03_AdminPage.chooseEnableStatus(P03_AdminPage.java:90)] - Status is selected
+[INFO] 02-06-2025 20:03:14 [main] [Pages.P03_AdminPage.enterPassword(P03_AdminPage.java:101)] - Password is entered: admin123456
+[INFO] 02-06-2025 20:03:14 [main] [Pages.P03_AdminPage.enterConfirmPassword(P03_AdminPage.java:111)] - Confirm Password is entered: admin123456
+[INFO] 02-06-2025 20:03:15 [main] [Pages.P03_AdminPage.enterEmployeeName(P03_AdminPage.java:149)] - Employee name 'A' found.
+[INFO] 02-06-2025 20:03:15 [main] [Pages.P03_AdminPage.enterUserName(P03_AdminPage.java:161)] - User Name is entered: Admin_576-46-02-08-02-06-2025
+[INFO] 02-06-2025 20:03:15 [main] [Pages.P03_AdminPage.clickOnSaveButton(P03_AdminPage.java:174)] - Save button is clicked
+[ERROR] 02-06-2025 20:03:26 [main] [Utilities.Utility.getText(Utility.java:39)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7d92940514978295d7b18287c7370914, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49487}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\AG\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49487/devtoo..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d92940514978295d7b18287c7370914
+[ERROR] 02-06-2025 20:03:26 [main] [Utilities.Utility.getText(Utility.java:39)] - Error communicating with the remote browser. It may have died.
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [7d92940514978295d7b18287c7370914, findElement [using, value]]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 136.0.3240.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:49487}, msedge: {msedgedriverVersion: 136.0.3240.104 (6a705373902..., userDataDir: C:\Users\AG\AppData\Local\T...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49487/devtoo..., se:cdpVersion: 136.0.3240.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7d92940514978295d7b18287c7370914
+[INFO] 02-06-2025 20:03:26 [main] [Pages.P03_AdminPage.getRecordedNumberAfter(P03_AdminPage.java:184)] - After Recorded number is: 

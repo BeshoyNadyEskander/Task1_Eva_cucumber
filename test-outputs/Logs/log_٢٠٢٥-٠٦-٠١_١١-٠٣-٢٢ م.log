@@ -1,0 +1,19 @@
+[INFO] 01-06-2025 23:03:22 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:25)] - driver is opened on: chrome
+[INFO] 01-06-2025 23:03:24 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:27)] - Page is redirected to the URL
+[INFO] 01-06-2025 23:03:25 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:34)] - valid Username is entered Admin
+[INFO] 01-06-2025 23:03:25 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:40)] - valid Password is entered admin123
+[INFO] 01-06-2025 23:03:25 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:47)] - Login button is clicked
+[INFO] 01-06-2025 23:03:28 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 01-06-2025 23:03:29 [main] [Utilities.Utility.getText(Utility.java:36)] - Text is: (4) Records Found
+[INFO] 01-06-2025 23:03:29 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:32)] - Add button is clicked
+[INFO] 01-06-2025 23:03:30 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:39)] - Admin role is selected an drop menu is displayed
+[ERROR] 01-06-2025 23:03:30 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:51)] - invalid selector: Unable to locate an element with the xpath expression  //div[@role='listbox']//child::div)[3] because of the following error:
+SyntaxError: Failed to execute 'evaluate' on 'Document': The string ' //div[@role='listbox']//child::div)[3]' is not a valid XPath expression.
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalid-selector-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [012099fd1a01c580b79a857a22cf65fb, findElement {using=xpath, value= //div[@role='listbox']//child::div)[3]}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:59635}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:59635/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 012099fd1a01c580b79a857a22cf65fb

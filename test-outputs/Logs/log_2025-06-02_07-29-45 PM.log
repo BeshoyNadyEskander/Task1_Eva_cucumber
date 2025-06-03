@@ -1,0 +1,9 @@
+[INFO] 02-06-2025 19:29:46 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: chrome
+[INFO] 02-06-2025 19:29:48 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 02-06-2025 19:29:49 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 02-06-2025 19:29:49 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 02-06-2025 19:29:50 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 02-06-2025 19:29:52 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 02-06-2025 19:29:52 [main] [Pages.P03_AdminPage.enterusernameForSearch(P03_AdminPage.java:215)] - User Name for search is entered: Admin_2025-06-02-07-21-06PM
+[INFO] 02-06-2025 19:29:52 [main] [Pages.P03_AdminPage.clickOnSearch(P03_AdminPage.java:222)] - Search button is clicked
+[INFO] 02-06-2025 19:29:53 [main] [Pages.P03_AdminPage.clickOndeleteButton(P03_AdminPage.java:229)] - Delete button is clicked

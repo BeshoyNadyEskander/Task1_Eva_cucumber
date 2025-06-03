@@ -1,0 +1,17 @@
+[INFO] 02-06-2025 19:52:45 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: chrome
+[INFO] 02-06-2025 19:52:48 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 02-06-2025 19:52:49 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 02-06-2025 19:52:49 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 02-06-2025 19:52:49 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 02-06-2025 19:52:51 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 02-06-2025 19:52:52 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:58)] - Add button is clicked
+[INFO] 02-06-2025 19:52:53 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:64)] - Admin role is selected an drop menu is displayed
+[ERROR] 02-06-2025 19:53:01 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:75)] - invalid session id: session deleted as the browser has closed the connection
+from disconnected: unable to send message to renderer
+  (Session info: chrome=136.0.7103.114)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [a88b660da575b1380aa3b9a860e87207, findElement {using=xpath, value=//div[@class='oxd-select-text-input'][text()='-- Select --']/parent::div/following-sibling::div//span[text()='Admin']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65325}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65325/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a88b660da575b1380aa3b9a860e87207

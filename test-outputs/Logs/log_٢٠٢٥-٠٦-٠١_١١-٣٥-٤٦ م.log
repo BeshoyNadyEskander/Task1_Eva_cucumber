@@ -1,0 +1,10 @@
+[INFO] 01-06-2025 23:35:46 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:25)] - driver is opened on: chrome
+[INFO] 01-06-2025 23:35:49 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:27)] - Page is redirected to the URL
+[INFO] 01-06-2025 23:35:49 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:34)] - valid Username is entered Admin
+[INFO] 01-06-2025 23:35:50 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:40)] - valid Password is entered admin123
+[INFO] 01-06-2025 23:35:51 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:47)] - Login button is clicked
+[INFO] 01-06-2025 23:35:52 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 01-06-2025 23:35:53 [main] [Utilities.Utility.getText(Utility.java:36)] - Text is: (11) Records Found
+[INFO] 01-06-2025 23:35:53 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:34)] - Add button is clicked
+[INFO] 01-06-2025 23:35:54 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:41)] - Admin role is selected an drop menu is displayed
+[INFO] 01-06-2025 23:35:54 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:51)] - Admin role is selected

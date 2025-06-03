@@ -1,0 +1,29 @@
+[INFO] 02-06-2025 19:53:14 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: chrome
+[INFO] 02-06-2025 19:53:17 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 02-06-2025 19:53:17 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 02-06-2025 19:53:17 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 02-06-2025 19:53:18 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 02-06-2025 19:53:20 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 02-06-2025 19:53:21 [main] [Pages.P03_AdminPage.getRecordedNumber(P03_AdminPage.java:53)] - Recorded number is: (23) Records Found
+[INFO] 02-06-2025 19:53:22 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:58)] - Add button is clicked
+[INFO] 02-06-2025 19:53:22 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:64)] - Admin role is selected an drop menu is displayed
+[ERROR] 02-06-2025 19:53:32 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:75)] - Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='oxd-select-text-input'][text()='-- Select --']/parent::div/following-sibling::div//span[text()='Admin'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65369/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e55daf0f688cf9ab596c8c2d2df3f850
+[INFO] 02-06-2025 19:53:32 [main] [Pages.P03_AdminPage.clickOnStatusButton(P03_AdminPage.java:83)] - Status button is clicked
+[ERROR] 02-06-2025 19:53:42 [main] [Pages.P03_AdminPage.chooseEnableStatus(P03_AdminPage.java:92)] - Expected condition failed: waiting for element to be clickable: By.xpath: //div[@class='oxd-select-text-input'][text()='-- Select --']/parent::div/following-sibling::div//span[text()='Enabled'] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65369/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e55daf0f688cf9ab596c8c2d2df3f850
+[ERROR] 02-06-2025 19:53:49 [main] [Pages.P03_AdminPage.enterPassword(P03_AdminPage.java:103)] - Expected condition failed: waiting for visibility of element located by By.xpath: (//label[contains(text(),'Password')]/following::input)[1] (tried for 5 second(s) with 500 milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65369}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65369/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: e55daf0f688cf9ab596c8c2d2df3f850
+[ERROR] 02-06-2025 19:53:54 [main] [Pages.P03_AdminPage.enterConfirmPassword(P03_AdminPage.java:113)] - Expected condition failed: waiting for visibility of element located by By.xpath: //label[contains(text(),'Confirm Password')]/following::input[1] (tried for 5 second(s) with 500 milliseconds interval)

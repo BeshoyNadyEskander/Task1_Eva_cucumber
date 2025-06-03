@@ -1,0 +1,21 @@
+[INFO] 01-06-2025 01:22:38 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:25)] - driver is opened on: chrome
+[INFO] 01-06-2025 01:22:40 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:27)] - Page is redirected to the URL
+[INFO] 01-06-2025 01:22:41 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:34)] - valid Username is entered Admin
+[INFO] 01-06-2025 01:22:41 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:40)] - valid Password is entered admin1235
+[INFO] 01-06-2025 01:22:41 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:47)] - Login button is clicked
+[ERROR] 01-06-2025 01:22:47 [main] [Utilities.Utility.VerifyURL(Utility.java:91)] - Expected condition failed: waiting for url to be "https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index". Current url: "https://opensource-demo.orangehrmlive.com/web/index.php/auth/login" (tried for ٥ second(s) with ٥٠٠ milliseconds interval)
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62769/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f10c92593fb887d3dd8d04757e20e10
+[ERROR] 01-06-2025 01:22:57 [main] [Pages.P02_DashboardPage.assertOnUsernameIsDisplayed(P02_DashboardPage.java:28)] - no such element: Unable to locate element: {"method":"xpath","selector":"//li[@class="oxd-userdropdown"] //p"}
+  (Session info: chrome=136.0.7103.114)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.33.0', revision: '2c6aaad03a'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '24'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [7f10c92593fb887d3dd8d04757e20e10, findElement {value=//li[@class="oxd-userdropdown"] //p, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 136.0.7103.114, chrome: {chromedriverVersion: 136.0.7103.113 (76fa3c17824..., userDataDir: C:\Users\AG\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:62769}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:62769/devtoo..., se:cdpVersion: 136.0.7103.114, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 7f10c92593fb887d3dd8d04757e20e10
+[INFO] 01-06-2025 01:22:57 [main] [org.example.stepDefs.D01_loginStepDef.verify_user_login_successfully(D01_loginStepDef.java:56)] - User is logged in successfully
