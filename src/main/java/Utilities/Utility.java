@@ -66,30 +66,7 @@ public class Utility {
 
 
 
-    public static int generateRandomNumber(int upperBound) { //0 >> upper-1  > 5
-        return new Random().nextInt(upperBound) + 1;
-    }
 
-    //Set >> unique >> 1,2,3,4,3 > condition
-    public static Set<Integer> generateUniqueNumber(int numberOfProductsNeeded, int totalNumberOfProducts) //5 >> 50
-    {
-        Set<Integer> generatedNumbers = new HashSet<>();
-        while (generatedNumbers.size() < numberOfProductsNeeded) { //11111 > 1 2 10 5 7
-            int randomNumber = generateRandomNumber(totalNumberOfProducts);
-            generatedNumbers.add(randomNumber);
-        }
-        return generatedNumbers;
-    }
-
-    public static Set<Integer> selectedRandomUniqueNumber(int numberProductsNeeded, List<WebElement> webElementList) {
-        Set<Integer> genertedNumbers = new HashSet<>();
-        // int count = webElementList.size();
-        while (genertedNumbers.size() < numberProductsNeeded) {
-            int randomNumber = generateRandomNumber(webElementList.size());
-            genertedNumbers.add(randomNumber);
-        }
-        return genertedNumbers;
-    }
 
     public static boolean VerifyURL(WebDriver driver, String expectedURL) {
         try {
