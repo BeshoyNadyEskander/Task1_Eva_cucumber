@@ -8,3 +8,4 @@ Feature: F01_Login | users could use login functionality to redirect his account
     And admin enter valid password
     And admin click on login button
     Then verify admin login successfully
+    And quit driver

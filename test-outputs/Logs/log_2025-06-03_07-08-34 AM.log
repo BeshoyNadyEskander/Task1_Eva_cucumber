@@ -1,0 +1,22 @@
+[INFO] 03-06-2025 07:08:34 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:26)] - driver is opened on: edge
+[INFO] 03-06-2025 07:08:36 [main] [org.example.stepDefs.D01_loginStepDef.navigate_login_page(D01_loginStepDef.java:28)] - Page is redirected to the URL
+[INFO] 03-06-2025 07:08:37 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_username(D01_loginStepDef.java:35)] - valid Username is entered Admin
+[INFO] 03-06-2025 07:08:37 [main] [org.example.stepDefs.D01_loginStepDef.enter_valid_password(D01_loginStepDef.java:41)] - valid Password is entered admin123
+[INFO] 03-06-2025 07:08:39 [main] [org.example.stepDefs.D01_loginStepDef.clickOnLoginButton(D01_loginStepDef.java:48)] - Login button is clicked
+[INFO] 03-06-2025 07:08:41 [main] [org.example.stepDefs.D02_DashBoardStepDefs.clickOnAdminButton(D02_DashBoardStepDefs.java:21)] - Admin button is clicked
+[INFO] 03-06-2025 07:08:42 [main] [Pages.P03_AdminPage.clickOnAddButton(P03_AdminPage.java:58)] - Add button is clicked
+[INFO] 03-06-2025 07:08:42 [main] [Pages.P03_AdminPage.selectAdminRole(P03_AdminPage.java:64)] - Admin role is selected an drop menu is displayed
+[INFO] 03-06-2025 07:08:42 [main] [Pages.P03_AdminPage.chooseAdminRole(P03_AdminPage.java:73)] - Admin role is selected
+[INFO] 03-06-2025 07:08:42 [main] [Pages.P03_AdminPage.clickOnStatusButton(P03_AdminPage.java:83)] - Status button is clicked
+[INFO] 03-06-2025 07:08:42 [main] [Pages.P03_AdminPage.chooseEnableStatus(P03_AdminPage.java:90)] - Status is selected
+[INFO] 03-06-2025 07:08:43 [main] [Pages.P03_AdminPage.enterPassword(P03_AdminPage.java:101)] - Password is entered: admin123456
+[INFO] 03-06-2025 07:08:43 [main] [Pages.P03_AdminPage.enterConfirmPassword(P03_AdminPage.java:111)] - Confirm Password is entered: admin123456
+[INFO] 03-06-2025 07:08:44 [main] [Pages.P03_AdminPage.enterEmployeeName(P03_AdminPage.java:149)] - Employee name 'A' found.
+[INFO] 03-06-2025 07:08:44 [main] [Pages.P03_AdminPage.enterUserName(P03_AdminPage.java:161)] - User Name is entered: Admin_664-44-08-07-03-06-2025
+[INFO] 03-06-2025 07:08:45 [main] [Pages.P03_AdminPage.clickOnSaveButton(P03_AdminPage.java:174)] - Save button is clicked
+[INFO] 03-06-2025 07:08:50 [main] [Pages.P03_AdminPage.getRecordedNumberAfter(P03_AdminPage.java:184)] - After Recorded number is: (9) Records Found
+[INFO] 03-06-2025 07:08:50 [main] [Pages.P03_AdminPage.enterUsernameForSearch(P03_AdminPage.java:215)] - User Name for search is entered: Admin_664-44-08-07-03-06-2025
+[INFO] 03-06-2025 07:08:50 [main] [Pages.P03_AdminPage.clickOnSearch(P03_AdminPage.java:222)] - Search button is clicked
+[INFO] 03-06-2025 07:08:51 [main] [Pages.P03_AdminPage.clickOndeleteButton(P03_AdminPage.java:229)] - Delete button is clicked
+[INFO] 03-06-2025 07:08:52 [main] [Pages.P03_AdminPage.clickOnYesOfDelete(P03_AdminPage.java:236)] - Yes of delete button is clicked
+[INFO] 03-06-2025 07:08:53 [main] [Pages.P03_AdminPage.verifyOnRecordedDecreased(P03_AdminPage.java:250)] - Verifying if recorded number decreased:(8) Records Found

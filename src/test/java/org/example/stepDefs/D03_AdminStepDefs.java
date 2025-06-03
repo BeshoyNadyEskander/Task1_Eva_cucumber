@@ -9,6 +9,7 @@ import org.testng.Assert;
 import java.io.IOException;
 
 import static DriverFactory.DriverFactory.getDriver;
+import static DriverFactory.DriverFactory.quitDriver;
 import static Utilities.DataUtils.*;
 import static Utilities.Utility.getTimeStamp;
 
@@ -64,8 +65,15 @@ public class D03_AdminStepDefs {
     public void assertOnRecordedIsDecreasedAfterDeleted()
     {
         Assert.assertTrue(new P03_AdminPage(getDriver()).verifyOnRecordedDecreased());
-    }
 
+
+
+    }
+    @And("quit driver")
+    public void closeDriver()
+    {
+        quitDriver();
+    }
 
 
 }

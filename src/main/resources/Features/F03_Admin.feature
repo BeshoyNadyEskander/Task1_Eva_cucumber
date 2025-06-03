@@ -13,6 +13,8 @@ Feature: F03_Admin | users could use Admin functionality for adding new employee
     And admin could click on add button
     And Fill the required data
     Then Verify that the number of records increased by one
+    And quit driver
+
 
 
   Scenario: verify on user could delete new added employee and recorded is decreased by 1
@@ -26,3 +28,4 @@ Feature: F03_Admin | users could use Admin functionality for adding new employee
     And Fill the required data
     When search on new added username
     Then Verify that the number of records decreased by one
+    And quit driver
