@@ -1,4 +1,4 @@
-@smoke @t
+@smoke @test
 
 Feature: F03_Admin | users could use Admin functionality for adding new employee
 
