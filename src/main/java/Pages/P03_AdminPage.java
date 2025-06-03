@@ -209,7 +209,7 @@ public class P03_AdminPage {
            return AfterRecordedNumber()==(BeforeRecordedNumber()+1) || AfterRecordedNumber()>(BeforeRecordedNumber()+1); // handle OR con >> if any recorded is added through running;
         }
 
-        public P03_AdminPage enterusernameForSearch(String usernameText)
+        public P03_AdminPage enterUsernameForSearch(String usernameText)
         {
             Utility.sendData(driver , usernameForSearchLocator , usernameText);
             LogsUtils.info("User Name for search is entered: " + usernameText);

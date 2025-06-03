@@ -1,9 +1,6 @@
 package org.example.stepDefs;
 
-import Pages.P01_LoginPage;
-import Pages.P02_DashboardPage;
 import Pages.P03_AdminPage;
-import Utilities.Utility;
 import io.cucumber.java.en.And;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
@@ -57,7 +54,7 @@ public class D03_AdminStepDefs {
     @When("search on new added username")
     public void addNewUserName() throws IOException
     {
-        new P03_AdminPage(getDriver()).enterusernameForSearch(getPropertyValue("environment", "username"))
+        new P03_AdminPage(getDriver()).enterUsernameForSearch(getPropertyValue("environment", "username"))
                 .clickOnSearch()
                 .clickOndeleteButton()
                 .clickOnYesOfDelete()
